@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fasco | Checkout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Finalizar Compra</h1>
+    <div class="checkout-page">
+      <div class="checkout-form">
+        <h2>Informações de Entrega</h2>
+        <form>
+          <input type="text" placeholder="Nome completo" required />
+          <input type="text" placeholder="Endereço" required />
+          <input type="text" placeholder="Cidade" required />
+          <input type="text" placeholder="CEP" required />
+          <input type="tel" placeholder="Telefone" required />
+        </form>
+
+        <h2>Pagamento</h2>
+        <form>
+          <input type="text" placeholder="Número do cartão" required />
+          <input type="text" placeholder="Nome no cartão" required />
+          <input type="text" placeholder="Validade (MM/AA)" required />
+          <input type="text" placeholder="CVV" required />
+        </form>
+      </div>
+
+      <div class="checkout-summary">
+        <h2>Resumo do Pedido</h2>
+        <div class="item">
+          <p>Camisa Oversized</p>
+          <span>R$ 149,90</span>
+        </div>
+        <div class="item">
+          <p>Vestido Floral</p>
+          <span>R$ 189,90</span>
+        </div>
+        <hr />
+        <div class="total">
+          <strong>Total:</strong>
+          <strong>R$ 339,80</strong>
+        </div>
+        <button class="btn">Finalizar Compra</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

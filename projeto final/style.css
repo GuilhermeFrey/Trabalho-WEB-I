@@ -1,0 +1,223 @@
+
+/* ===================== RESET E BASE ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+}
+
+/* ===================== LOGO E CABEÇALHO ===================== */
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+/* ===================== FORMULÁRIOS ===================== */
+.form-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input[type="number"] {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.actions, .back-link {
+  text-align: right;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.actions a, .back-link a, .signup-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* ===================== BOTÕES ===================== */
+button, .btn {
+  background-color: #000;
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+button:hover, .btn:hover {
+  background-color: #333;
+}
+
+.btn.secondary {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn.secondary:hover {
+  background-color: #f0f0f0;
+}
+
+/* ===================== PÁGINA DE PRODUTO ===================== */
+.product-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.product-details {
+  flex: 1;
+  min-width: 280px;
+}
+
+.product-details h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.frete-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* ===================== CHECKOUT ===================== */
+.checkout-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.checkout-form {
+  flex: 2;
+  min-width: 300px;
+}
+
+.checkout-form h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.checkout-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkout-summary {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.checkout-summary h2 {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 15px;
+}
